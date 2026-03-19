@@ -1,0 +1,36 @@
+/* Courses Page Specific Styles */
+
+.course-list {
+    max-width: 900px;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.course-card {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid var(--border);
+    transition: var(--transition);
+}
+
+.course-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-5px);
+}
+
+.course-card h3 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.institution {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+    display: block;
+}
