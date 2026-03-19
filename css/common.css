@@ -266,6 +266,17 @@ nav a:hover::after, nav a.active::after {
     align-items: flex-start;
 }
 
+/* Update footer social links */
+.social-links li a i {
+    margin-right: 0.5rem;
+    color: var(--primary);
+    transition: var(--transition);
+}
+
+.social-links li a:hover i {
+    transform: translateX(3px);
+}
+
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
